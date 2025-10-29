@@ -2,4 +2,6 @@
 // Reference the template file that will use this file: https://github.com/scaffold-eth/create-eth/blob/main/templates/base/packages/nextjs/scaffold.config.ts.template.mjs
 
 // Default args:
-export const chainName = 'sepolia';
+export const configOverrides = {
+    targetNetworks: ["$$chains.sepolia$$"],
+  };
