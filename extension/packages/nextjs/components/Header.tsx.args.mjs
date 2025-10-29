@@ -2,7 +2,12 @@
 // Reference the template file that will use this file: https://github.com/scaffold-eth/create-eth/blob/main/templates/base/packages/nextjs/components/Header.tsx.template.mjs
 
 // Default args:
-export const preContent = "";
-export const extraMenuLinksObjects = [];
-export const logoTitle = "Scaffold-ETH";
-export const logoSubtitle = "Ethereum dev stack";
+export const extraMenuLinksObjects = [
+    {
+        label: "ERC-7715 Permissions",
+        href: "/erc-7715-permissions",
+    },
+];
+
+export const logoTitle = "MetaMask";
+export const logoSubtitle = "ERC-7715 Permissions";
