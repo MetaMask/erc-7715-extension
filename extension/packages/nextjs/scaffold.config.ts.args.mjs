@@ -3,5 +3,5 @@
 
 // Default args:
 export const configOverrides = {
-    targetNetworks: ["$$chains.sepolia$$"],
-  };
+  targetNetworks: ["$$chains.sepolia$$"],
+};
