@@ -1,9 +1,7 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { erc7715ProviderActions } from "@metamask/delegation-toolkit/experimental";
-import { erc7710BundlerActions } from "@metamask/delegation-toolkit/experimental";
-import { RequestExecutionPermissionsReturnType } from "@metamask/delegation-toolkit/experimental";
+import { erc7715ProviderActions, erc7710BundlerActions, RequestExecutionPermissionsReturnType } from "@metamask/smart-accounts-kit/actions";
 import { createPimlicoClient } from "permissionless/clients/pimlico";
 import { Hex, parseEther } from "viem";
 import { createPublicClient, http } from "viem";

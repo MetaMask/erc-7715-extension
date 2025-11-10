@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { RequestExecutionPermissionsReturnType } from "@metamask/delegation-toolkit/experimental";
+import { RequestExecutionPermissionsReturnType } from "@metamask/smart-accounts-kit/actions";
 
 interface PermissionsListProps {
   permission: RequestExecutionPermissionsReturnType;
