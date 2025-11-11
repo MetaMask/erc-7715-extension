@@ -4,10 +4,10 @@
 // Default args:
 export const extraMenuLinksObjects = [
     {
-        label: "ERC-7715 Permissions",
+        label: "Advanced Permissions (ERC-7715)",
         href: "/erc-7715-permissions",
     },
 ];
 
 export const logoTitle = "MetaMask";
-export const logoSubtitle = "ERC-7715 Permissions";
+export const logoSubtitle = "Advanced Permissions (ERC-7715)";

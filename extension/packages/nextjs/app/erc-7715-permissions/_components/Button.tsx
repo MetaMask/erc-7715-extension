@@ -12,7 +12,7 @@ export const Button: React.FC<ButtonProps> = ({ children, onClick, disabled }) =
   <button
     onClick={onClick}
     disabled={disabled}
-    className="px-8 py-3 border-2 border-white text-white font-semibold rounded hover:bg-white hover:text-gray-900 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+    className="px-8 py-3 border-2 border-neutral text-neutral font-semibold rounded hover:bg-neutral hover:text-neutral-content transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
   >
     {children}
   </button>

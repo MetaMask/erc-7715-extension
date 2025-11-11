@@ -26,4 +26,4 @@ export const description = `
 </div>
 `;
 
-export const externalExtensionName = "ERC-7715 Permissions";
+export const externalExtensionName = "Advanced Permissions (ERC-7715)";
