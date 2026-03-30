@@ -8,7 +8,7 @@ user's account.
 
 This extension demonstrates the end-to-end flow for requesting a permisison, and executing transaction on the user's behalf under the given scope of the permission. 
 
-[Learn how to execute transaction on MetaMask user's behalf](https://docs.metamask.io/smart-accounts-kit/guides/erc7715/execute-on-metamask-users-behalf/).
+[Learn how to execute transaction on MetaMask user's behalf](https://docs.metamask.io/smart-accounts-kit/guides/advanced-permissions/execute-on-metamask-users-behalf/).
 
 ## Installation
 

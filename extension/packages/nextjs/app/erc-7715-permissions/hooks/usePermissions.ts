@@ -56,13 +56,7 @@ export const usePermissions = () => {
         {
           chainId: sepolia.id,
           expiry,
-          signer: {
-            type: "account",
-            data: {
-              address: sessionAccount.address as `0x${string}`,
-            },
-          },
-          isAdjustmentAllowed: true,
+          to: sessionAccount.address as `0x${string}`,
           permission: {
             type: "native-token-periodic",
             data: {
@@ -71,6 +65,7 @@ export const usePermissions = () => {
               justification: "Request permisison to spend 0.001 ETH per day",
               startTime: currentTime,
             },
+            isAdjustmentAllowed: true,
           },
         },
       ]);
@@ -128,8 +123,8 @@ export const usePermissions = () => {
           {
             to: sessionAccount.address as Hex,
             value: parseEther("0.0000001"),
-            permissionsContext: grantedPermissions[0].context,
-            delegationManager: grantedPermissions[0].signer.data.address,
+            permissionContext: grantedPermissions[0].context,
+            delegationManager: grantedPermissions[0].delegationManager,
           },
         ],
         ...fee,
